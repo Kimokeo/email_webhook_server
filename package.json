@@ -1,0 +1,23 @@
+{
+  "name": "webhook_server",
+  "version": "1.0.0",
+  "description": "Routes incoming emails via mandrill/mail-chimp webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kimokeo",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "http": "0.0.0",
+    "http-hash-router": "^1.1.0",
+    "jquery": "^2.1.4",
+    "palmettoflow-event": "^1.1.2",
+    "palmettoflow-nodejs": "^1.0.1",
+    "pouchdb": "^5.1.0",
+    "request": "^2.67.0",
+    "send-data": "^8.0.0",
+    "underscore": "^1.8.3"
+  }
+}
